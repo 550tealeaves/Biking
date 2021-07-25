@@ -1,0 +1,63 @@
+body{
+            background: linear-gradient(.25turn, #fdd1ff, 15%, ivory);
+        }
+        h1{
+            text-align: center;
+            font-size: 34px;
+            text-decoration: underline;
+            color: #53ABAE;
+            padding: 15px 12px;
+        }
+        h2{
+            font-weight: lighter;
+            font-size: 28px;
+        }
+        div{
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        p{
+            line-height: 2.0;
+            font-size: 18px;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            max-height: 50%;
+            height: 250px;
+        }
+        span{
+            color: red;   
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            font-size: 20px;
+            color: #53ABAE;
+            background: darkmagenta;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            transition: all 200ms ease-in-out;
+            border: 1px dashed black;
+            border-radius: 18px;
+            padding: 10px 8px;
+        }
+        button:hover{
+            color: darkmagenta;
+            background: #53ABAE;
+            cursor: pointer;
+        }
+        .benefits{
+            color: purple;
+        }
+        .outside{
+            text-align: center;
+            font-size: 18px;
+        }
+        .footer{
+            text-align: center;
+            padding: 10px 12px;
+        }
