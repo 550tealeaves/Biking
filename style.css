@@ -1,4 +1,4 @@
-body{
+        body{
             background: linear-gradient(.25turn, #fdd1ff, 15%, ivory);
         }
         h1{
@@ -24,12 +24,11 @@ body{
             line-height: 2.0;
             font-size: 18px;
         }
-        img{
-            display: block;
-            margin: 0 auto;
-            max-height: 50%;
-            height: 250px;
+
+        a:hover{
+            color: blue;
         }
+
         span{
             color: red;   
         }
@@ -61,3 +60,13 @@ body{
             text-align: center;
             padding: 10px 12px;
         }
+
+       @media (max-width: 900px) {
+           h1{
+               font-size: 26px;
+           }
+        
+            h2{
+               font-size: 24px;
+           }
+       }
