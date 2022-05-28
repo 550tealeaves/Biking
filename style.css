@@ -25,9 +25,13 @@
             font-size: 18px;
         }
 
+        a{
+            color: darkorchid;
+        }
+        
         a:hover{
             color: blue;
-        }
+        }        
 
         span{
             color: red;   
@@ -49,13 +53,7 @@
             background: #53ABAE;
             cursor: pointer;
         }
-        .benefits{
-            color: purple;
-        }
-        .outside{
-            text-align: center;
-            font-size: 18px;
-        }
+
         .footer{
             text-align: center;
             padding: 10px 12px;
